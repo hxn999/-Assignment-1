@@ -25,7 +25,7 @@ nav ul{
 .resume-d{
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 15px 20px;
     font-size: 20px;
     font-weight: 600;
     border-radius:10px ;
@@ -55,4 +55,84 @@ nav ul{
     border: none;
     border-radius: 10px;
     font-weight: 500;
+    font-size: 20px;
+}
+.why{
+    width: 90%;
+    margin: 0 auto;
+    /* height: 1000px; */
+    margin-top: 80px;
+    background-color:#fbfbfc ;
+    border-radius: 15px;
+    padding: 60px 70px;
+    
+}
+.why-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 60px;
+     
+}
+.why-head{
+    font-weight: 900;
+    font-size: 40px;
+}
+.why-desc{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.why-head,.why-desc
+{
+    text-align: center;
+
+}
+.desc-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc-card{
+    height: 336px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.info-holder{
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+}
+.focus-img{
+    width: 243px;
+    height: 240px;
+    margin-right: 80px;
+}
+.learn{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    /* border-radius: 10px; */
+    font-size: 20px;
+}
+.card-desc-head{
+    font-size: 30px;
+    width: 80%;
+}
+.card-desc-p{
+    font-size: 20px;
+}
+.fade1{
+    background: linear-gradient(90deg,white,#fbfbfc);
+}
+.fade2{
+    background: linear-gradient(90deg,#fbfbfc,white);
 }
