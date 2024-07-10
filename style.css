@@ -308,3 +308,29 @@ h2{
     font-size: 30px;
     font-weight: 900;
 }
+.next-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.next-card{
+    display: flex;
+    flex-direction: row;
+    justify-content;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 100% ;
+    align-items: center;
+    height: 250px;
+    /* padding: 40px; */
+}
+.next-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ticon{
+    width: 100px;
+    margin: 0 50px;
+}
