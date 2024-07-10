@@ -194,3 +194,59 @@ h3{
     display: flex;
     gap: 30px;
 }
+.support{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 350px;
+    padding: 40px;
+}
+.support-head{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+.support-desc{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 70%;
+    line-height: 25px;
+
+}
+#text{
+    width: 550px;
+    height: 60px;
+    padding: 10px 25px;
+    color: grey;
+    word-spacing: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#btn{
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: 500;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+button ,#btn:hover{
+    cursor: pointer;
+}
