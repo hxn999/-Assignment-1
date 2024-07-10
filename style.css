@@ -174,3 +174,23 @@ iframe{
     border-radius: 15px;
     height: 90%;
 }
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F8F8;
+    margin-top: 80px;
+    padding: 0 80px;
+}
+#insta{
+    width: 36px;
+}
+h3{
+    font-weight: 900;
+    font-size: 25px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
